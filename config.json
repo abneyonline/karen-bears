@@ -10,7 +10,7 @@
     "client_secret": "",
     "user_agent": "",
     "username": "",
-    "password": ""
+    "password": "
   },
   "required_packages": ["praw"]
 }
