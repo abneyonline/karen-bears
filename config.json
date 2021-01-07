@@ -1,0 +1,19 @@
+{
+  "name": "jokes",
+  "developer": "Alfredo Sequeida",
+  "icon": "icon.png",
+  "commands": [
+    "tell me a joke",
+    "tell me a dad joke",
+  ],
+  "entry-point": "jokes",
+  "languages": ["en"],
+  "settings": {
+    "client_id": "",
+    "client_secret": "",
+    "user_agent": "",
+    "username": "",
+    "password": ""
+  },
+  "required_packages": ["praw"]
+}
