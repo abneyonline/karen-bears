@@ -16,7 +16,7 @@ def run(command, args, voice_instance):
         client_id=USER_SETTINGS["client_id"],
         client_secret=USER_SETTINGS["client_secret"],
         password=USER_SETTINGS["password"],
-        user_agent=USER_SETTINGS["user_agent"],
+        user_agent="karen_jokes",
         username=USER_SETTINGS["username"],
     )
 
