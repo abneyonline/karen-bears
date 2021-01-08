@@ -18,6 +18,5 @@ To use this addon, you need to have a Reddit account and setup a Reddit app, you
 
 client_id - Reddit app client id
 client_secret - Reddit app client secret
-user_agent - Reddit app user agent (this can be anything)
 username - Reddit username
 password - Reddit password
