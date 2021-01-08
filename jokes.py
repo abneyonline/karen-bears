@@ -1,18 +1,23 @@
+from utils.settings import get_addon_settings
+
+
 import praw
 import json
 from utils.setup import load_config
 from random import choice
+
+USER_SETTINGS = get_addon_settings("jokes")
 
 
 def run(command, args, voice_instance):
     creds = load_config("addons/joker/creds.json")
 
     reddit = praw.Reddit(
-        client_id=creds["client_id"],
-        client_secret=creds["client_secret"],
-        password=creds["password"],
-        user_agent=creds["user_agent"],
-        username=creds["username"],
+        client_id=USER_SETTINGS["client_id"],
+        client_secret=USER_SETTINGS["client_secret"],
+        password=USER_SETTINGS["password"],
+        user_agent=USER_SETTINGS["user_agent"],
+        username=USER_SETTINGS["username"],
     )
 
     if "dad joke" in command:
