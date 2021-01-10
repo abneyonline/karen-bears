@@ -1,15 +1,10 @@
 {
-  "name": "jokes",
-  "developer": "Alfredo Sequeida",
+  "name": "bears",
+  "developer": "Elijah Abney",
   "icon": "icon.png",
-  "commands": ["tell me a joke", "tell me a dad joke"],
-  "entry-point": "jokes",
+  "commands": ["bears", "tell me a bear joke"],
+  "entry-point": "bears",
   "languages": ["en"],
-  "settings": {
-    "client_id": "",
-    "client_secret": "",
-    "username": "",
-    "password": ""
-  },
-  "required_packages": ["praw"]
+  "settings": {},
+  "required_packages": []
 }
